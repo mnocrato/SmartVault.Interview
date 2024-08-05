@@ -15,7 +15,6 @@ namespace SmartVault.Program
         static void Main(string[] args)
         {
             var provider = GetServiceProvider();
-            args = new string[] { "1" };
             if (args.Length == 0)
                 return;
 
